@@ -152,6 +152,13 @@ a:active {
     border-bottom: 1px solid #e67e22;
 }
 
+a:hover,
+a:visited {
+    color: #555;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s color 0.2s;
+}
+
 
 /*
 .....BUTTONS....
@@ -338,6 +345,11 @@ header{
     float:left;
     font-size: 150%;
     margin-right: 25px;
+}
+
+.btn-app:link,
+.btn-app:visited {
+    border: none;
 }
 
 .btn-app img{
