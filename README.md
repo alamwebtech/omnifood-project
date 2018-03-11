@@ -1,1 +1,1 @@
-# outreach-restaurrant-project
+# outreach-restaurant-project
