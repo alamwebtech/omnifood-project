@@ -265,6 +265,21 @@ header{
     border-bottom: 2px solid #e67e22;
 }
 
+/*
+
+-----TAG-----
+
+*/
+
+
+.tag{
+    margin:0;
+    float: right;
+    height: auto;
+    width:auto;
+    padding-right: 30px;
+    
+}
 
 /*
 ---FEATURES---
