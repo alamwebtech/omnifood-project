@@ -265,7 +265,7 @@ header{
 .main-nav{
     float: right;
     list-style: none;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .main-nav li{
     display: inline-block;
@@ -289,6 +289,22 @@ header{
 }
 
 
+/*
+
+----MObile Navi----
+*/
+
+.mobile-nav-icon{
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+.mobile-nav-icon i{
+    font-size: 200%;
+    color: #fff;
+}
 
 
 /*
