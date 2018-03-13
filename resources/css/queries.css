@@ -57,6 +57,14 @@
     .contact-form{
         width: 80%;
     }
+    .tag{
+        margin:0;
+        float: right;
+        width: auto;
+        height:auto;
+        padding-top: 26%;
+    
+   }
 }
 
 
@@ -114,6 +122,11 @@
     .app-screen{
         width: 40%;
     }
+    .tag{
+        padding-top: 15%;
+        margin: 0 auto;
+        padding-right: 0;
+   }
 }
 
 /* ----small phones from 0 to 480px ----*/
@@ -125,4 +138,14 @@
     .contact-form{
         width: 100%;
     }
+    h1{
+        padding-top: 60%;
+    }
+    .tag{
+        margin:0;
+        float: right;
+        width: auto;
+        height:auto;
+     
+   }
 }
