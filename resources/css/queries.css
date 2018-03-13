@@ -86,12 +86,34 @@
         width: 100%;
         margin: 0 0 4% 0; 
     }
+/*
     .main-nav{
         display: none;
     }
+*/
+    
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav {
+        float:left;
+        margin-top:1px;
+        margin-left: 90px;
+    }
+    
+    main-nav li{
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 1px 0;
+    }
+    
     h1{
         font-size: 180%;
-        padding-top: 15%;
     }
     h2{
         font-size: 150%;
