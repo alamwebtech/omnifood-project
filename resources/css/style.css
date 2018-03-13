@@ -692,3 +692,17 @@ footer p{
     margin-top: 20px;
 }
 
+/*
+
+-----ANIMATION for JS-----
+
+*/
+
+.js--wp-1{
+    opacity: 0;
+}
+.js--wp-1.animated{
+    opacity: 1;
+}
+
+
