@@ -29,7 +29,7 @@ body {
     
 }
 
-.clearfix {zoom: 1}
+.clearfix {zoom: 1;}
 .clearfix:after {
     content: '.';
     clear: both;
@@ -129,7 +129,7 @@ h3{
 }
 .icon-small{
     display: inline-block;
-    
+    width: 30px;
     text-align: center;
     color:#e67e22;
     font-size: 120%;
@@ -148,19 +148,19 @@ h3{
 */
 
 a:link,
-a:active {
+a:visited {
     color: #e67e22;
     text-decoration: none;
     padding-bottom: 1px;
     border-bottom: 1px solid #e67e22;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
 }
 
 a:hover,
-a:visited {
+a:active {
     color: #555;
     border-bottom: 1px solid transparent;
-    -webkit-transition: border-bottom 0.2s color 0.2s;
-    transition: border-bottom 0.2s color 0.2s;
 }
 
 
@@ -236,7 +236,9 @@ header{
     top: 50%;
     left:50%;
     -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    
 }
 
 .logo{
@@ -249,7 +251,7 @@ header{
 
 .logo-black{
     display: none;
-    height: 65px;
+    height: 50px;
     width: auto;
     float: left;
     margin: 5px 0; 
@@ -265,7 +267,7 @@ header{
 .main-nav{
     float: right;
     list-style: none;
-    margin-top: 20px;
+   
 }
 .main-nav li{
     display: inline-block;
@@ -296,7 +298,7 @@ header{
 
 .mobile-nav-icon{
     float: right;
-    margin-top: 10px;
+    margin-top: 30px;
     cursor: pointer;
     display: none;
 }
@@ -322,11 +324,15 @@ header{
     -webkit-box-shadow: 0 2px 2px #efefef;
     box-shadow: 0 2px 2px #efefef;
     z-index: 9999;
+    height: 70px;
+}
+.main-nav li{
+    margin: 30px;
 }
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
-    padding: 10px 0;
+    padding: 16px 0;
     color: #555;    
 }
 
@@ -337,6 +343,7 @@ header{
     display: none;
 }
 
+/*
 .sticky .main-nav{
 
     margin-top:2px;
@@ -344,6 +351,7 @@ header{
 nav.sticky{
     height: 75px;
 }
+*/
 
 
 /*
@@ -421,12 +429,15 @@ nav.sticky{
     background-color: #f4f4f4;
 }
 
+.steps-box{
+     margin-top: 30px;
+}
 .steps-box:first-child{
     text-align: right;
     padding-right: 3%;
-    margin-top: 30px;
 }
 .steps-box:last-child{
+    text-align: left;
     padding-left: 3%;
     margin-top: 70px;
 }
@@ -457,7 +468,7 @@ nav.sticky{
 
 .btn-app:link,
 .btn-app:visited {
-    border: none;
+    border: 0;
 }
 
 .btn-app img{
@@ -557,7 +568,7 @@ cite img{
 
 .plan-box div:last-child{
     text-align: center;
-    border: none;
+    border: 0;
 }
 
 
@@ -641,7 +652,7 @@ footer{
     margin-right: 20px;
 }
 .footer-nav li:last-child,
-.social-links lilast-child{
+.social-links li:last-child{
     margin-right: 0;
 }
 
@@ -650,10 +661,12 @@ footer{
     margin-right: 0;
 }
 
+/*
 .social-links li a:link,
 .social-links li a:visited {
     font-size: 110%;
 }
+*/
 
 .footer-nav li a:link,
 .footer-nav li a:visited,
@@ -674,7 +687,7 @@ footer{
 
 .social-links li a:link,
 .social-links li a:visited{
-    font-size: 140%;
+    font-size: 160%;
 }
 
 /*
